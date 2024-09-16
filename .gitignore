@@ -1,0 +1,5 @@
+Client/.env
+Api/.env
+
+Client/node_modules/
+Api/node_modules/
