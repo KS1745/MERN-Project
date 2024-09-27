@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "server": "nodemon Api/server.js",
+    "start": "node server.js",
     "client": "cd client && npm start",
     "dev": "nodemon Api/server.js",
     "build": "npm install && npm install --prefix Client && npm run build --prefix Client"
   },
-  "author": "kashish",
+  "author": "Kartikay Sinha",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
